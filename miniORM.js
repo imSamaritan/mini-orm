@@ -1,7 +1,7 @@
-import Builder from './builder/Builder.js'
 import mysql from 'mysql2/promise'
 import debug from 'debug'
-import Execute from './execute/execute.js'
+import Execute from './execute/Execute.js'
+import Builder from './builder/Builder.js'
 
 const queryDebugger = debug('miniORM:query')
 
